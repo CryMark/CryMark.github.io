@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryMarkBlog - 技术博客即将上线</title>
+    <style>
+        :root {
+            --primary: #3498db;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            color: var(--dark);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .logo {
+            font-weight: bold;
+            color: var(--primary);
+        }
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .feature-card {
+            padding: 1rem;
+            border-left: 3px solid var(--primary);
+            background: var(--light);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span class="logo">CryMarkBlog</span></h1>
+        <p>技术博客 · 开发中 · 即将上线</p>
+    </header>
+
+    <div class="container">
+        <h2>关于 CryMarkBlog</h2>
+        <p>这是一个专注于技术分享的个人博客系统，目前正在积极开发中。我们将提供：</p>
+        
+        <div class="features">
+            <div class="feature-card">
+                <h3>技术文章</h3>
+                <p>编程教程、开发心得和前沿技术解析</p>
+            </div>
+            <div class="feature-card">
+                <h3>开源项目</h3>
+                <p>代码分享和实用工具推荐</p>
+            </div>
+            <div class="feature-card">
+                <h3>互动社区</h3>
+                <p>读者评论与开发者交流</p>
+            </div>
+        </div>
+
+        <h2>邮件使用说明</h2>
+        <p>本系统仅会发送<strong>必要的服务邮件</strong>，包括：</p>
+        <ol>
+            <li>账户注册验证</li>
+            <li>密码重置请求</li>
+            <li>重要系统通知</li>
+        </ol>
+        <p>所有邮件均遵循 <a href="privacy.html">隐私政策</a>，用户可随时取消订阅。</p>
+    </div>
+
+    <footer>
+        <p>© 2023 CryMarkBlog - 当前为验证专用页面</p>
+        <p>联系: <a href="mailto:admin@crymarkblog.com">admin@crymarkblog.com</a></p>
+        <p><a href="privacy.html">隐私政策</a> | <a href="https://github.com/crymarkblog">项目源码</a></p>
+    </footer>
+</body>
+</html>
